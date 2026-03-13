@@ -1,0 +1,91 @@
+/*Importando fontes Work Sans, Poppins, Heebo, Rubik, Lato e Merriweather*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#data{
+    position: relative;
+    width: 100%;
+    height: 38px;
+    font-size: 24px;
+    background-color: #EAF8E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+}
+
+#cabecalho{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #0E341D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#menu{
+    all: unset; 
+    margin-left: 62px;
+    margin-right: 24px;
+}
+
+#logo{
+    width: 92px;
+    height: 94px;
+    margin-left: 89px;
+    margin-right: 62px;
+}
+
+
+#form_pesquisa{
+    width: 403px;
+    height: 53px;
+    border-radius: 16px;
+    background-color: #FEFBF9;
+    display: flex;
+    align-items: center;
+}
+
+#lupa_estatica{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 13px;
+}
+
+#pesquisa{
+    width: 282px;
+    height: 53px;
+    padding-top: 6px;
+    background-color: #FEFBF9;
+}
+
+input::placeholder {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    color: #1E1E1E;
+}
+
+#lupa_pesquisa{
+    all: unset; 
+    width: 63px;
+    height: 53px;
+    background-color: #FFD23F;
+    border-radius: 10px 16px 16px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
