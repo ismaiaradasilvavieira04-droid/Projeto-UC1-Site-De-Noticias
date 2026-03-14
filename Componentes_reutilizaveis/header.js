@@ -10,17 +10,17 @@ class Header extends HTMLElement {
             <div id="cabecalho">
 
                 <button id="menu" aria-label="Abrir menu">
-                <img src="./Imagens/Menu.png" alt="">
+                <img src="../Componentes_reutilizaveis/Imagens/Menu.png" alt="">
                 </button>
 
                 <p>Um suspiro de esperança todos os dias</p>
 
-                <img src="./Imagens/Logo.png" alt="Logo da Suspiro News" id="logo">
+                <img src="../Componentes_reutilizaveis/Imagens/Logo.png" alt="Logo da Suspiro News" id="logo">
 
                 <form role="search" id="form_pesquisa">
-                <img src="./Imagens/Lupa.png" alt="" id="lupa_estatica">
+                <img src="../Componentes_reutilizaveis/Imagens/Lupa.png" alt="" id="lupa_estatica">
                 <input type="search" id="pesquisa" placeholder="Buscar boas notícias..." />
-                <button type="submit" id="lupa_pesquisa"><img src="./Imagens/Lupa.png" alt="" /></button>
+                <button type="submit" id="lupa_pesquisa"><img src="../Componentes_reutilizaveis/Imagens/Lupa.png" alt="" /></button>
                 </form>
 
             </div>
