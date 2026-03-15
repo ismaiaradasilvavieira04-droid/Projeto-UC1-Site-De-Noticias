@@ -1,3 +1,4 @@
+/*Abaixo estamos criando uma classe chamada header que erda de HTMLElement*/
 class Header extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
