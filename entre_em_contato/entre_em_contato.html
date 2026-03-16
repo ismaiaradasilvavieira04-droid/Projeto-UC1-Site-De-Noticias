@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspiro News</title>
+    <link rel="stylesheet" href="entre_em_contato.css" type="text/css" />
+
+    <link rel="stylesheet" href="../Componentes_reutilizaveis/header.css" type="text/css" />
+    <script src="../Componentes_reutilizaveis/header.js"></script>
+    <link rel="stylesheet" href="../Componentes_reutilizaveis/rodape.css" type="text/css" />
+    <script src="../Componentes_reutilizaveis/rodape.js"></script>
+</head>
+
+<body>
+    <main-header>
+
+    </main-header>
+    <main>
+        <h1 id="titulo">Entre em contato com a gente</h1>
+
+
+        <p id="subtitulo">
+            Sua empresa quer anunciar, divulgar projetos, propor parcerias ou falar com a equipe do Suspiro News? Será
+            um prazer conversar com você.
+        </p>
+        <div id="grande">
+            <p id="titulo2">FALE COM NOSSA EQUIPE POR MEIO DOS CANAIS ABAIXO:</p>
+            <p id="subtitulo2">E-mail: suspironews@gmail.com | Instagram: @suspironews</p>
+            <p id="titulo3">Ou, se preferir, preencha o formulário e entraremos em contato:</p>
+            <section id="formulario">
+                <section id="lado_esquerdo">
+                    <label for="nome">Nome*</label>
+                    <input type="text" id="nome" name="nome">
+
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email">
+                </section>
+
+                <section id="lado_direito">
+                    <label for="assunto">Assunto*</label>
+                    <textarea id="assunto" name="assunto"></textarea>
+                </section>
+
+                <section id="termo">
+                    <input type="checkbox" id="aceito" name="aceito">
+                    <label for="aceito">Eu aceito o termo de responsabilidade</label>
+                </section>
+
+                <button id="enviar" type="submit">Enviar</button>
+            </section>
+            </section>
+
+        </div>
+
+    </main>
+
+    <sn-rodape></snrodape>
+
+</body>
+
+</html>
