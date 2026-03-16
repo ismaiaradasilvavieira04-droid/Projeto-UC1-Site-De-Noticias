@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E4F1DE;
+}
+
+#titulo {
+    width: 100%;
+    text-align: center;
+    color: rgb(208, 83, 0);
+    font-size: 55px;
+    margin-top: 50px;
+    font-family: "Rubik", sans-serif;
+}
+
+main {
+    position: relative;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+}
+
+#subtitulo {
+    width: 52%;
+    text-align: center;
+    color: rgb(5, 35, 1);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px auto;
+    line-height: 30px;
+    font-family: "Lato", sans-serif;
+    color: #0E341D;
+}
+
+
+
+/*FALE COM NOSSA EQUIPE POR MEIO DOS CANAIS ABAIXO*/
+#titulo2 {
+    color: rgb(208, 83, 0);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/*E-mail: suspironews@gmail.com   |   Instagram: @suspironews*/
+#subtitulo2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #0E341D;
+    margin-top: 15px;
+}
+
+/*Ou, se preferir, preencha o formulário e entraremos em contato:*/
+#titulo3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #0E341D;
+}
+
+
+#formulario {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#lado_esquerdo {
+    width: 38%;
+    position: absolute;
+    left: 8%;
+    top: 0;
+}
+
+#lado_direito {
+    width: 38%;
+    position: absolute;
+    right: 8%;
+    top: 0;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+}
+
+#termo {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    text-align: center;
+}
+
+#termo input {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+#termo label {
+    display: inline;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+#enviar {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 45px;
+    background-color: rgb(208, 83, 0);
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#grande {
+    background-color: white;
+    width: 60%;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#formulario {
+    width: 100%;
+    height: 320px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#lado_esquerdo {
+    width: 38%;
+    position: absolute;
+    left: 9%;
+    top: 0;
+}
+
+#lado_direito {
+    width: 38%;
+    position: absolute;
+    right: 9%;
+    top: 0;
+}
+
+#lado_esquerdo label,
+#lado_direito label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: black;
+}
+
+#nome,
+#email {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #0E341D;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-family: "Work Sans", sans-serif;
+    color: #0E341D;
+}
+
+#assunto {
+    width: 100%;
+    height: 120px;
+    border: 2px solid #0E341D;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+}
+
+#termo {
+    position: absolute;
+    top: 175px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;
+    text-align: center;
+}
+
+#termo input {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #0E341D;
+}
+
+#termo label {
+    display: inline;
+    font-size: 16px;
+    color: #0E341D;
+}
+
+#enviar {
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 45px;
+    background-color: rgb(208, 83, 0);
+    color: white;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
