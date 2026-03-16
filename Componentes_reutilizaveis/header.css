@@ -19,6 +19,7 @@
     justify-content: center;
     font-family: "Work Sans", sans-serif;
     font-weight: 500;
+    color: #000;
 }
 
 #cabecalho{
@@ -35,19 +36,23 @@
     font-weight: 500;
 }
 
+#cabecalho p{
+    color: #fff;
+}
+
 #menu{
     all: unset; 
-    margin-left: 62px;
-    margin-right: 24px;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 1%;
 }
 
 #logo{
     width: 92px;
     height: 94px;
-    margin-left: 89px;
-    margin-right: 62px;
+    margin-left: 1%;
+    margin-right: 5%
 }
-
 
 #form_pesquisa{
     width: 403px;
@@ -69,7 +74,7 @@
     width: 282px;
     height: 53px;
     padding-top: 6px;
-    background-color: #FEFBF9;
+    background-color: #FEFBF9; 
 }
 
 input::placeholder {

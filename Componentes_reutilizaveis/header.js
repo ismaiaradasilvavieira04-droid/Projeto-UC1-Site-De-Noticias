@@ -14,7 +14,7 @@ class Header extends HTMLElement {
                 <img src="../Componentes_reutilizaveis/Imagens/Menu.png" alt="">
                 </button>
 
-                <p>Um suspiro de esperança todos os dias</p>
+                <p id="slogan">Um suspiro de esperança todos os dias</p>
 
                 <img src="../Componentes_reutilizaveis/Imagens/Logo.png" alt="Logo da Suspiro News" id="logo">
 
