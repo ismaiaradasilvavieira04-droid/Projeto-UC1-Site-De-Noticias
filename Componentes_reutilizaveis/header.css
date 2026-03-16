@@ -39,6 +39,7 @@
     all: unset; 
     margin-left: 2%;
     margin-right: 3%;
+    margin-top: 1%;
 }
 
 #logo{
@@ -47,7 +48,6 @@
     margin-left: 1%;
     margin-right: 5%
 }
-
 
 #form_pesquisa{
     width: 403px;
