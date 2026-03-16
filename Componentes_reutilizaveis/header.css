@@ -69,7 +69,7 @@
     width: 282px;
     height: 53px;
     padding-top: 6px;
-    background-color: #FEFBF9;
+    background-color: #FEFBF9; 
 }
 
 input::placeholder {
