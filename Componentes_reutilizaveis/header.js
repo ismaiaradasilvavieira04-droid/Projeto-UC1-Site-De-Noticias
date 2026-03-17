@@ -26,7 +26,38 @@ class Header extends HTMLElement {
 
             </div>
 
-            </header>`;
+            <input type="checkbox" id="abre-menu" />
+
+
+            <label for="abre-menu" class="fundo-escuro"></label>
+
+
+            <div class="menu-lateral">
+                <label for="abre-menu" class="btn-fechar">✕</label>
+
+                <div class="menu-topo">
+                <img src="../Componentes_reutilizaveis/Imagens/Logo.png" class="menu-icone"   alt="">
+                
+                <span id="nome_logo_menu">Suspiro News</span>
+                </div>
+                
+
+                <a href="#">Educação <b>›</b></a>
+                <a href="#">Meio Ambiente <b>›</b></a>
+                <a href="#">Ciência <b>›</b></a>
+                <a href="#">Inovação e Tecnologia <b>›</b></a>
+                <a href="#">Cultura & Arte <b>›</b></a>
+                <a href="#">Saúde <b>›</b></a>
+
+                <hr />
+
+                <a href="#">Sobre o SN</a>
+                <a href="#">Entre em Contato</a>
+                <a href="#">Equipe</a>
+            </div>
+
+            </header>
+            `;
             const data = new Date(); /*Date é um objeto do JS que trabalha com data e horário, e new date cria uma nova data baseada na máquina do usuário*/
 
             /*Abaixo criamos um objeto de configuração ele diz como a data deve ser exibida*/
@@ -45,3 +76,9 @@ class Header extends HTMLElement {
 }
 
 customElements.define('main-header', Header);
+
+document.addEventListener('click', function(e) {
+  if (e.target.closest('#menu')) {
+    document.getElementById('abre-menu').checked = !document.getElementById('abre-menu').checked;
+  }
+});
