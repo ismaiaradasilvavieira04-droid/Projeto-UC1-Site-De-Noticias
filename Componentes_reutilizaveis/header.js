@@ -77,8 +77,9 @@ class Header extends HTMLElement {
 
 customElements.define('main-header', Header);
 
-document.addEventListener('click', function(e) {
+document.addEventListener('click', function (e) {
   if (e.target.closest('#menu')) {
-    document.getElementById('abre-menu').checked = !document.getElementById('abre-menu').checked;
-  }
+    document.getElementById('abre-menu').checked =
+      !document.getElementById('abre-menu').checked;
+  } 
 });
