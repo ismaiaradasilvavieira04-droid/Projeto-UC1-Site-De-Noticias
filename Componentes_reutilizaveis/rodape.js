@@ -7,22 +7,22 @@ class rodape_reutilizavel extends HTMLElement {
           <h4>Editais</h4>
           <ul>
             <li>
-              <a href="#">Saúde</a>
+              <a href="../categorias/pagina.categorria.html">Saúde</a>
             </li>
             <li>
-              <a href="#">Educação</a>
+              <a href="../categorias/pag-categorria.html">Educação</a>
             </li>
             <li>
-              <a href="#">Arte e Cultura</a>
+              <a href="../Arte e cultura/Artesculturas.html">Arte e Cultura</a>
             </li>
             <li>
-              <a href="#">Inovação<br />e tecnologia</a>
+              <a href="../categorias/pagina.html">Inovação<br />e tecnologia</a>
             </li>
             <li> 
-              <a href="#">Meio Ambiente</a>
+              <a href="../categorias/pagi-caegorria.html">Meio Ambiente</a>
             </li>
             <li> 
-              <a href="#">Ciência</a>
+              <a href="../categorias/pagin-categorria.html">Ciência</a>
             </li>
           </ul>
         </div>
@@ -38,16 +38,14 @@ class rodape_reutilizavel extends HTMLElement {
           <h4>Sobre nós</h4>
           <ul>
             <li>
-              <a href="#">Quem somos</a>
+              <a href="../quem_somos/quem_somos.html">Quem somos</a>
             </li>
-            <li>
-              <a href="#">Equipe</a>
-            </li>
+            
           </ul>
         </div>
         <div id="suporte">
           <h4>Suporte</h4>
-          <a href="#">Fale conosco</a>
+          <a href="../entre_em_contato/entre_em_contato.html">Fale conosco</a>
         </div>
       </div>
       <div id="linha_horizontal">
