@@ -13,7 +13,7 @@ class rodape_reutilizavel extends HTMLElement {
               <a href="../categorias/pag-categorria.html">Educação</a>
             </li>
             <li>
-              <a href="../Arte e cultura/Artesculturas.html">Arte e Cultura</a>
+              <a href="../Arte e cultura/ArtesCulturas.html">Arte e Cultura</a>
             </li>
             <li>
               <a href="../categorias/pagina.html">Inovação<br />e tecnologia</a>
