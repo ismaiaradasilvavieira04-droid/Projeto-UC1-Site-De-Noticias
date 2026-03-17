@@ -52,6 +52,11 @@ body{
     text-align:center;
 }
 
+.propagandatopo img{
+    width: 100%;
+    height: 100%;
+}
+
 /* intro notícias */
 .intronoticias{
     background:#fff;
@@ -129,6 +134,11 @@ h1{
     color:#666;
 }
 
+.ultimg img{
+    width: 100%;
+    height: 100%;
+}
+
 .corpodetexto{
     display:flex;
     flex-direction:column;
@@ -178,20 +188,23 @@ h1{
 
 }
 
+.propaganda-lateral img{
+    width: 100%;
+    height: 100%;
+}
+
 .curiosidade{
     width: 100%;
     height: 400px;   
     padding: 20px;
     border-radius: 10px;
-    background:#dfe7f2;
+    background:#123821;
+   
 }
 
-h3{
-    font-family: "Rubik", sans-serif;
-}
-
-.curiosidades p{
-    font-family: "Work Sans", sans-serif;
+.curiosidade img{
+    width: 100%;
+    height: 100%;
 }
 
 .redes{
