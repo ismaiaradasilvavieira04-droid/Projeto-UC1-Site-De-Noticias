@@ -132,6 +132,10 @@ main{
     flex-direction: row;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: #2E2E2E;
+}
 
 #texto_noticia2 h3{
     font-size: 32px;
@@ -305,27 +309,32 @@ main{
     z-index: 10;
 }
 
-/* Wrapper do Carrossel */
+
 .carrossel {
     display: flex;
     gap: 25px;
-    overflow-x: auto; /* Habilita o scroll horizontal */
-    scroll-snap-type: x mandatory; /* Força o "imã" no scroll */
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
     padding-bottom: 20px;
-    scrollbar-width: none; /* Esconde scroll no Firefox */
+    scrollbar-width: none; 
 }
 
 .carrossel::-webkit-scrollbar{
     display: none;
 }
 
-/* Itens do Carrossel (Cards) */
+
 .card {
-    flex: 0 0 350px; /* Largura fixa para os cards. Não deixa encolher */
+    flex: 0 0 350px; 
     height: 350px;
     border-radius: 15px;
-    scroll-snap-align: start; /* Onde o card "prende" ao rolar */
+    scroll-snap-align: start; 
     transition: transform 0.3s ease;
+
+    & img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .card:hover {
