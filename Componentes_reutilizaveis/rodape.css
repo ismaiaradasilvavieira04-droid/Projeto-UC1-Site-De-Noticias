@@ -23,6 +23,7 @@ footer{
 footer ul{
     list-style-type: none;
 }
+
 footer a{
     color: #fff;
     font-family: "Work Sans", sans-serif;
@@ -78,3 +79,143 @@ hr{
     width: 234px;
     height: 140px;
 }
+
+/*-----------------------------------------------------*/
+@media only screen and (min-width:481px){
+        @media only screen and (max-width:720px) {
+
+
+            #data {
+                width: 95%;
+            }
+
+            body{
+                max-width: 800px;
+                min-width: 320px;
+            }
+
+            #container {
+                 min-height: 650px;
+                 max-width: 800px;
+            }
+
+            #slogan{
+                display: none;
+            }
+
+           #pesquisa{
+                font-size: 15px;
+                border-radius: 15px;
+            } 
+
+            #lupa_pesquisa{
+                display: none;
+            }
+
+            #form_pesquisa{
+                width: 30%;   
+            }
+
+            .fundo_sobre_nos{
+                width: 55%;
+            }
+
+            #missao{
+                height: 30%;
+            }
+
+            #missao img{
+               margin-top: -45%;
+               justify-content: center;
+            }
+
+            #missao p{
+                justify-content: center;
+                margin-left: 130px;
+                font-size: 75%;
+                padding-bottom: 10%;
+            }
+
+            #visao{
+                height: 30%;
+            }
+
+            #visao img{
+                margin-top: -160px;
+            }
+
+             #visao p {
+                justify-content: center;
+                margin-left: 150px;
+                font-size: 75%;
+                padding-bottom: 10%;
+             }
+
+            #valores{
+                height: 30%;
+                justify-content: center;
+            }
+
+             #valores img{
+                margin-top: -45%;
+            }
+
+             #valores p {
+                font-size: 75%;
+                justify-content: center;
+                margin-left: 120px;
+                padding-bottom: 2%;
+            }
+
+            .criadores{
+                width: 270px;
+            }
+
+            footer {
+                height: auto;
+                padding: 60px;
+            }
+            
+            footer a{
+                font-size: 20px; 
+            }
+
+            #parte_superior{
+                font-size: 70%;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            #redes a{
+                font-size: 20px;
+                display: flex;
+                align-items: flex-start;
+            }
+            
+            #linha_vertical{
+                display: flex;
+                justify-content: center; 
+                display: none;           
+            }
+
+            #linha_horizontal{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #parte_inferior{
+                font-size: 10px;
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            #parte_inferior img{
+                 width: 200px;
+                 height: 120px;
+            }
+    }
+ } 
+    
