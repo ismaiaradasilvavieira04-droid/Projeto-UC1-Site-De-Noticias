@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CFE9C5;
+    color: #2E2E2E;
+}
+
+main{
+    position: relative;
+    margin: auto;
+    width: 93.06%; /*1340*/
+    height: auto;
+}
+
+#noticia_destaque{
+    width: 100%;
+    height: 593px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#noticia_destaque_container{
+    width: 62%;
+    height: 498px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#ninguem_conta{
+    background-color: #123821;
+    width: 100%;
+    height: 78px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 50px 0px 50px 0px;
+}
+
+#noticia_destaque1{
+    background-color: #fff;
+    width: 100%;
+    height: 401px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#noticia_destaque1 img{
+    width: 430px;
+    height: 350px;
+}
+
+#noticia_destaque1 h2{
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 17px;
+}
+
+#noticia_destaque1 p{
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-size: 400;
+    padding: 6px;
+}
+
+#noticias_em_alta{
+    width: 34%;
+    height: 500px;
+    font-family: "Lato";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#noticias_em_alta img{
+    width: 150px;
+    height: 150px;
+}
+
+#noticias_em_alta h2{
+    background-color: #FFD23F;
+    width: 100%;
+    height: 78px;
+    color: #123821;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 600;
+    border-radius: 0px 0px 50px 0px;
+}
+
+#noticia_em_alta1{
+    height: 183px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+#texto_noticia1 h3{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#texto_noticia1 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#noticia_em_alta2{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+#texto_noticia2 h3{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#texto_noticia2 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#ultimas_noticias{
+    height: 656px;
+    padding-top: 19px;
+    background-color: #EAF8E5;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: calc(-46.6vw + 50%);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.container_ultimas{
+    width: 91%;
+    margin: auto;
+}
+
+#ultimas_noticias h2{
+    color: #e45a00;
+    font-family: "Rubik", sans-serif;
+    font-size: 36px;
+    margin-bottom: 25px;
+    
+}
+
+.noticias_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.noticia_card{
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.30);
+    height: 200px;
+    cursor: pointer;
+}
+
+.noticia_card img{
+    width: 33%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.noticia_card h3{
+    padding: 15px;
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.btn_saiba_mais{
+    display: block;
+    width: 30%;
+    height: 48px;
+    margin: 30px auto 0 auto;
+    background: #FFD23F;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #0E341D;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+#resumo_semana_curiosidades{
+    background-image: url(../Imagens/Backround.png);
+    height: 800px;
+    margin-top: -50px;
+    padding-top: 50px;
+    margin-left: calc(-46.6vw + 50%);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cta_resumo_semana{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: #FFD23F;
+    padding: 20px 30px;
+
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0E341D;
+
+    width: 49.33%;
+    height: 100px;
+    
+
+    margin: 40px auto;
+
+    box-shadow: inset 0 4px 4px rgba(0,0,0,0.25);
+    font-family: "Lato", sans-serif;
+}
+
+.cta_resumo_semana img{
+    width: 45px;
+}
+
+.texto_cta{
+    text-align: center;
+}
+
+.texto_cta h3{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.texto_cta p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+#curiosidades_container {
+    padding-left: 20px;
+    background-color: #FFEBAA;
+    margin: 40px auto;
+    border-radius: 20px;
+    width: 93.06%;
+    height: 450px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+.carrossel{
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 0 40px;
+}
+
+/* Etiqueta "Curiosidades" */
+.curiosidades_header {
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    background: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    z-index: 10;
+}
+
+/* Wrapper do Carrossel */
+.carrossel {
+    display: flex;
+    gap: 25px;
+    overflow-x: auto; /* Habilita o scroll horizontal */
+    scroll-snap-type: x mandatory; /* Força o "imã" no scroll */
+    padding-bottom: 20px;
+    scrollbar-width: none; /* Esconde scroll no Firefox */
+}
+
+.carrossel::-webkit-scrollbar{
+    display: none;
+}
+
+/* Itens do Carrossel (Cards) */
+.card {
+    flex: 0 0 350px; /* Largura fixa para os cards. Não deixa encolher */
+    height: 350px;
+    border-radius: 15px;
+    scroll-snap-align: start; /* Onde o card "prende" ao rolar */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Cores dos Cards */
+.card_laranja { background-color: #F2991A; }
+.card_cinza   { background-color: #D9D9D9; }
+.card_verde   { background-color: #0E341D; }
