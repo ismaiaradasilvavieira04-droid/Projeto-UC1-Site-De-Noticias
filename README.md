@@ -26,4 +26,4 @@ Este projeto foi desenvolvido como prática de desenvolvimento web e também com
 - Organização de conteúdos por categorias (se tiver)
 ## 💻 Como executar o projeto
 
-[Abrir página Home](home/Home.html) 
+[Abrir página Home](./Home/home.html)
