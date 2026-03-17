@@ -42,18 +42,18 @@ class Header extends HTMLElement {
                 </div>
                 
 
-                <a href="#">Educação <b>›</b></a>
-                <a href="#">Meio Ambiente <b>›</b></a>
-                <a href="#">Ciência <b>›</b></a>
-                <a href="#">Inovação e Tecnologia <b>›</b></a>
-                <a href="#">Cultura & Arte <b>›</b></a>
-                <a href="#">Saúde <b>›</b></a>
+                <a href="../categorias/pag-categorria.html">Educação <b>›</b></a>
+                <a href="../categorias/pagi-caegorria.html">Meio Ambiente <b>›</b></a>
+                <a href="../categorias/pagin-categorria.html">Ciência <b>›</b></a>
+                <a href="../categorias/pagina.html">Inovação e Tecnologia <b>›</b></a>
+                <a href="../Arte e cultura/ArtesCulturas.html">Cultura & Arte <b>›</b></a>
+                <a href="../categorias/pagina.categorria.html">Saúde <b>›</b></a>
 
                 <hr />
 
-                <a href="#">Sobre o SN</a>
-                <a href="#">Entre em Contato</a>
-                <a href="#">Equipe</a>
+                <a href="../quem_somos/quem_somos.html">Sobre o SN</a>
+                <a href="../entre_em_contato/entre_em_contato.html">Entre em Contato</a>
+                
             </div>
 
             </header>
