@@ -11,15 +11,15 @@ class Header extends HTMLElement {
             <div id="cabecalho">
 
                 <button id="menu" aria-label="Abrir menu">
-                <img src="../Componentes_reutilizaveis/Imagens/Menu.png" alt="">
+                <img src="./Componentes_reutilizaveis/Imagens/Menu.png" alt="">
                 </button>
 
                 <p id="slogan">Um suspiro de esperança todos os dias</p>
 
-                <img src="../Componentes_reutilizaveis/Imagens/Logo.png" alt="Logo da Suspiro News" id="logo">
+                <img src="./Componentes_reutilizaveis/Imagens/Logo.png" alt="Logo da Suspiro News" id="logo">
 
                 <form role="search" id="form_pesquisa">
-                <img src="../Componentes_reutilizaveis/Imagens/Lupa.png" alt="" id="lupa_estatica">
+                <img src="./Componentes_reutilizaveis/Imagens/Lupa.png" alt="" id="lupa_estatica">
                 <input type="search" id="pesquisa" placeholder="Buscar boas notícias..." />
                 <button type="submit" id="lupa_pesquisa"><img src="../Componentes_reutilizaveis/Imagens/Lupa.png" alt="" /></button>
                 </form>
@@ -36,23 +36,23 @@ class Header extends HTMLElement {
                 <label for="abre-menu" class="btn-fechar">✕</label>
 
                 <div class="menu-topo">
-                <img src="../Componentes_reutilizaveis/Imagens/Logo.png" class="menu-icone"   alt="">
+                <img src="./Componentes_reutilizaveis/Imagens/Logo.png" class="menu-icone"   alt="">
                 
                 <span id="nome_logo_menu">Suspiro News</span>
                 </div>
                 
 
-                <a href="../categorias/pag-categorria.html">Educação <b>›</b></a>
-                <a href="../categorias/pagi-caegorria.html">Meio Ambiente <b>›</b></a>
-                <a href="../categorias/pagin-categorria.html">Ciência <b>›</b></a>
-                <a href="../categorias/pagina.html">Inovação e Tecnologia <b>›</b></a>
-                <a href="../Arte e cultura/ArtesCulturas.html">Cultura & Arte <b>›</b></a>
-                <a href="../categorias/pagina.categorria.html">Saúde <b>›</b></a>
+                <a href="./categorias/pag-categorria.html">Educação <b>›</b></a>
+                <a href="./categorias/pagi-caegorria.html">Meio Ambiente <b>›</b></a>
+                <a href="./categorias/pagin-categorria.html">Ciência <b>›</b></a>
+                <a href="./categorias/pagina.html">Inovação e Tecnologia <b>›</b></a>
+                <a href="./Arte e cultura/ArtesCulturas.html">Cultura & Arte <b>›</b></a>
+                <a href="./categorias/pagina.categorria.html">Saúde <b>›</b></a>
 
                 <hr />
 
-                <a href="../quem_somos/quem_somos.html">Sobre o SN</a>
-                <a href="../entre_em_contato/entre_em_contato.html">Entre em Contato</a>
+                <a href="./quem_somos/quem_somos.html">Sobre o SN</a>
+                <a href="./entre_em_contato/entre_em_contato.html">Entre em Contato</a>
                 
             </div>
 
