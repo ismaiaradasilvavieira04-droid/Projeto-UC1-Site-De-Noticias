@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    background:#EAF8E5;
+    font-family: 'Lato', sans-serif;
+    width:100%;
+    min-height:100vh;
+
+}
+
+/* topo com degradê */
+.topo{
+    width:100%;
+    height:200px;
+    background: linear-gradient(90deg, #FFFDF9, #0E341D);
+}
+
+.slogo{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+.slogan p{
+    color: #123821;
+    font-size: 24px;
+    text-align:center;
+
+}
+
+/* propaganda topo */
+.propagandatopo{
+    width:60%;
+    height:120px;
+    background:#d9d9d9;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:4px;
+    color:#e7f0e6;
+    font-size:18px;
+    text-align:center;
+
+}
+
+.propagandatopo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* container geral */
+
+.container-noticia{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    gap:20px;
+    padding:40px; /*desgruda de cima*/
+
+}
+
+/*----parte branca------*/
+
+.noticia{
+    width:70%;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+
+}
+
+/*----titulo verde----*/
+
+.titulo-noticia{
+    background:#123821;
+    color:white;
+    padding:25px;
+    position:relative;
+    border-top-left-radius:70px; /*efeito do titulo*/
+    border-top-right-radius:0;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:70px;
+
+}
+
+h1{
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+}
+
+/*---superção---*/
+
+.categoria{
+    background:#f4b400;
+    padding:10px 20px;
+    font-weight:bold;
+    position:absolute;
+    right:20px;
+    bottom:-15px;
+    border-top-left-radius:50px;  /*efeito do titulo*/
+    border-top-right-radius:0;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:50px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+/*---creditos---- */
+
+.autor{
+    margin:30px 0 15px 0;
+    font-size:14px;
+    color:#444;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.img-noticia{
+    width: 100%;
+    height: 400px;
+    border-radius:10px;
+    margin-bottom:5px;
+
+}
+
+.credito{
+    font-size:12px;
+    color:#444;
+    margin-bottom:20px;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.texto p{
+    margin-bottom:15px;
+    font-size:18px;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+/*-------trem do lado----------*/
+
+.sidebar{
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+
+}
+
+.ultimas{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1); /*efeito de sombra*/
+
+}
+
+.ultimas h3{
+    background:#EA580C;
+    color:white;
+    text-align: center;
+    padding:15px;
+    margin-bottom:15px;
+    border-top-left-radius:20px;  /*efeito do titulo*/
+    border-top-right-radius:0;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:20px;
+    font-family: "Rubik", sans-serif;
+    
+
+}
+
+.mini-noticia{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    border-bottom:1px solid #eee;
+
+}
+
+.mini-img{
+    width:60px;
+    height:60px;
+    background:#ccc;
+
+}
+
+.mini-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.mini-texto p{
+    font-family: "Lato", sans-serif;
+}
+
+.mini-texto span{
+    font-size:12px;
+    color:#444;
+    font-family: "Lato", sans-serif;
+
+}
+
+.propaganda{
+    width: 100%;
+    height:500px;
+    background:#d9d9d9;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.propaganda img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.gostou{
+    background:#FEBC1B;
+    height: 200px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1); /*efeito de sombra*/
+    font-family: "Rubik", sans-serif;
+
+}
+
+#insta{
+    font-weight:bold;
+    margin-top:10px;
+    font-family: "Lato", sans-serif;
+
+}
+
+#insta a{
+    text-decoration: none;
+    color: #0E341D;
+    font-family: "Lato", sans-serif;
+}
+
+/*----------video------------- */
+
+#area-video{
+    max-width:1200px;
+    margin:40px auto;
+    display:flex;
+    gap:150px;
+    margin-left: 200px;
+
+}
+
+#video{
+    width:35%;
+    height:400px;
+    background:#ccc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+
+}
+
+#info-evento{
+    display:flex;
+    flex-direction:column;
+
+    
+}
+
+#info-evento h3{
+    font-size:22px;
+    margin-bottom:10px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+#info-evento p{
+    font-size:18px;
+    color:#444;
+    font-family: "Lato", sans-serif;
+
+}
+
+
+/*-------------visualização tablet------------*/
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:900px){
+
+        .topo{
+            height:auto;
+
+        }
+
+        .slogo{
+            width:95%;
+            flex-direction:column;
+            gap:20px;
+            padding:20px 0;
+
+        }
+
+        .slogan p{
+            font-size:20px;
+
+        }
+
+        .propagandatopo{
+            width:100%;
+            height:100px;
+
+        }
+
+        .container-noticia{
+            width:95%;
+            flex-direction:column;
+
+        }
+
+        .noticia{
+            width:100%;
+
+        }
+
+        .sidebar{
+           width:100%;
+           flex-direction:row;
+           flex-wrap:wrap;
+           gap:20px;
+
+        }
+
+        .ultimas{
+            width:48%;
+
+        }
+
+        .propaganda{
+             width:48%;
+            height:300px;
+
+        }
+
+        .gostou{
+            width:100%;
+
+        }
+
+        .img-noticia{
+           height:300px;
+
+        }
+
+        .texto p{
+            font-size:20px;
+
+        }
+
+        #area-video{
+           width:80%;
+           flex-direction:column;
+           gap:30px;
+           margin-left:auto;
+
+        }
+
+        #video{
+           width:100%;
+        }
+
+    }
+}
+
+
+/*-------------visualização mobile------------*/
+@media only screen and (max-width:480px){
+
+    .topo{
+        height:auto;
+
+    }
+
+    .slogo{
+        width:95%;
+        flex-direction:column;
+        gap:15px;
+        padding:20px 0;
+
+    }
+
+    .slogan p{
+        font-size:18px;
+
+    }
+
+    .propagandatopo{
+        width:100%;
+        height:90px;
+        font-size:14px;
+
+    }
+
+    .container-noticia{
+        width:95%;
+        flex-direction:column;
+        padding:20px;
+
+    }
+
+    .noticia{
+        width:100%;
+        padding:20px;
+
+    } 
+
+    .titulo-noticia{
+        padding:20px;
+
+    }
+
+    h1{
+       font-size:24px;
+
+    }
+
+    .categoria{
+        font-size:14px;
+
+    }
+
+    .img-noticia{
+        height:220px;
+
+    }
+
+    .texto p{
+        font-size:18px;
+
+    }
+
+    .sidebar{
+        width:100%;
+        gap:30px;
+
+    }
+
+    .ultimas{
+        width:100%;
+
+    }
+
+    .propaganda{
+        width:100%;
+        height:200px;
+
+    }
+
+    .gostou{
+        width:100%;
+        height:auto;
+
+    }
+
+    .mini-noticia{
+        align-items:center;
+
+    }
+
+    .mini-img{
+        width:50px;
+        height:50px;
+
+    }
+
+    #area-video{
+        width:86%;
+        flex-direction:column;
+        gap:25px;
+        margin-left:auto;
+
+    }
+
+    #video{
+        width:100%;
+        height:220px;
+
+    }
+
+    #info-evento h3{
+        font-size:20px;
+
+    }
+
+    #info-evento p{
+        font-size:16px;
+
+   }
+
+}
