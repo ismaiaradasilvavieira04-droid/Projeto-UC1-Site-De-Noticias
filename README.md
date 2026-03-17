@@ -26,7 +26,4 @@ Este projeto foi desenvolvido como prática de desenvolvimento web e também com
 - Organização de conteúdos por categorias (se tiver)
 ## 💻 Como executar o projeto
 
-1. Clone o repositório
-
-```bash
-git clone https://github.com/seuusuario/seurepositorio
+[Abrir página Home](home/Home.html) 
